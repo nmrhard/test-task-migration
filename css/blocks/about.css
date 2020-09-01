@@ -1,0 +1,12 @@
+.about {
+    margin-bottom: 80px;
+}
+
+.about__text {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.about__text:last-child {
+    margin-bottom: 0;
+}

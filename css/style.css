@@ -1,0 +1,16 @@
+/* Main */
+@import "varaibles.css";
+@import "box-model.css";
+
+
+/* Blocks */
+@import "blocks/page.css";
+@import "blocks/header.css";
+@import "blocks/container.css";
+@import "blocks/page-title.css";
+@import "blocks/section-title.css";
+@import "blocks/about.css";
+@import "blocks/form.css";
+@import "blocks/button.css";
+@import "blocks/team.css";
+@import "blocks/social.css";

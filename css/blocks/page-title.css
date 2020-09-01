@@ -1,0 +1,13 @@
+.page-title {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 125%;
+    color: var(--basic-white);
+}
+
+@media (max-widtH: 450px) {
+    .page-title {
+        font-size: 46px;
+    }
+}

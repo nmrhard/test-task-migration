@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 80px;
+    color: var(--basic-white);
+    background-color: rgb(66, 86, 117);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../img/header-bg.jpg") center/cover;
+}
+
+@media (max-widtH: 768px) {
+    .header {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../img/header-bg-tablet.jpg") center/cover;
+    }
+}
+
+@media (max-widtH: 450px) {
+    .header {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../img/header-bg-mobile.jpg") center/cover;
+    }
+}

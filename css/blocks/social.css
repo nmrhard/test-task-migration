@@ -1,0 +1,33 @@
+.social__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social__item {
+    margin-right: 8px;
+}
+
+.social__item--fill {
+    width: 32px;
+    height: 32px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    fill: var(--basic-white);
+}
+
+@media (max-width: 1135px) {
+    .social__list {
+        justify-content: center;
+    } 
+
+    .social__item--fill {
+        display: none;
+    }
+}

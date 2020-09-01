@@ -1,0 +1,47 @@
+.section-title {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.section-title--about {
+    width: 1228px;
+    word-break: break-all;
+}
+
+.section-title--center {
+    text-align: center;
+}
+
+.about .section-title {
+    margin-bottom: 16px;
+}
+
+.contact-form .section-title {
+    margin-bottom: 30px;
+}
+
+.team .section-title {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 1370px) {
+    .section-title--about {
+        width: auto;
+        word-break: normal;
+    }
+}
+
+@media (max-width: 1135px) {
+    .section-title {
+        text-align: center;
+    }
+}
+
+@media (max-widtH: 450px) {
+    .section-title {
+        font-size: 26px;
+    }
+}

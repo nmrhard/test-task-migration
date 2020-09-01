@@ -1,0 +1,21 @@
+.button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    background: linear-gradient(180deg, #0C89CF 0%, #4FACFE 100%);
+    border-radius: 25px;
+    border: none;
+    color: var(--basic-white);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(180deg, #4FACFE 0%, #0C89CF 100%);
+}
+
+.button--form {
+    grid-column: 1/3;
+}
